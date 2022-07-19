@@ -7,13 +7,13 @@ module Vectoring_Single
     		  					 width = 16)
   
   					  (input clk,
-                       input signed [width-1:0] xin,
-                       input signed [width-1:0] yin,
-                       input dir_in,
-                       output dir_out,
-                       input signed [width-1:0] x_ref,
-                       output reg signed [width-1:0] x_out,y_out
-                      );
+               input signed [width-1:0] xin,
+               input signed [width-1:0] yin,
+               input dir_in,
+               output dir_out,
+               input signed [width-1:0] x_ref,
+               output reg signed [width-1:0] x_out,y_out
+               );
   
 
   
@@ -67,12 +67,12 @@ module Rotation_Single
                       			 f_width = 14)
   
   					  (input clk,
-                       input signed [width-1:0] xin,
-                       input signed [width-1:0] yin,
-                       input [1:0] dir_in,
-                       input [width-1:0] sec,
-                       output reg signed [width-1:0] x_out,y_out
-                      );
+               input signed [width-1:0] xin,
+               input signed [width-1:0] yin,
+               input [1:0] dir_in,
+               input [width-1:0] sec,
+               output reg signed [width-1:0] x_out,y_out
+                );
   
 
   
