@@ -3,10 +3,9 @@
 // Data path for single vectoring operation 
 //parameters i specifies the index of the module (there are 15 in total)
 module Vectoring_Single
-  					 #(parameter i = 0,
-    		  					 width = 16)
-  
-  					  (input clk,
+  	     #(parameter i = 0,
+                         width = 16)
+              (input clk,
                input signed [width-1:0] xin,
                input signed [width-1:0] yin,
                input dir_in,
@@ -62,11 +61,10 @@ endmodule
 //Data path for single rotation operation (16 total)
 
 module Rotation_Single
-  					#(parameter i = 0,
-    		  					 width = 16,
-                      			 f_width = 14)
-  
-  					  (input clk,
+  	    #(parameter i = 0,
+    	                width = 16,
+                        f_width = 14)
+              (input clk,
                input signed [width-1:0] xin,
                input signed [width-1:0] yin,
                input [1:0] dir_in,
